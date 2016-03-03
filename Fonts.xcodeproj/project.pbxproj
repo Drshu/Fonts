@@ -11,6 +11,12 @@
 		A211DC681C856C9D0012DBDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A211DC671C856C9D0012DBDF /* AppDelegate.m */; };
 		A211DC6A1C856C9D0012DBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A211DC691C856C9D0012DBDF /* Assets.xcassets */; };
 		A211DC6D1C856C9D0012DBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A211DC6B1C856C9D0012DBDF /* LaunchScreen.storyboard */; };
+		A211DC751C856CCC0012DBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A211DC741C856CCC0012DBDF /* Main.storyboard */; };
+		A211DC781C856F660012DBDF /* FavoritesList.m in Sources */ = {isa = PBXBuildFile; fileRef = A211DC771C856F660012DBDF /* FavoritesList.m */; };
+		A2EB649E1C8666E600C601B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB649D1C8666E600C601B7 /* RootViewController.m */; };
+		A2EB64A11C8673B300C601B7 /* FontListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB64A01C8673B300C601B7 /* FontListViewController.m */; };
+		A2EB64A41C867BDB00C601B7 /* FontSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB64A31C867BDB00C601B7 /* FontSizeViewController.m */; };
+		A2EB64A71C8684EF00C601B7 /* FontInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB64A61C8684EF00C601B7 /* FontInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,18 @@
 		A211DC691C856C9D0012DBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A211DC6C1C856C9D0012DBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A211DC6E1C856C9D0012DBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A211DC741C856CCC0012DBDF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A211DC761C856F660012DBDF /* FavoritesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesList.h; sourceTree = "<group>"; };
+		A211DC771C856F660012DBDF /* FavoritesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesList.m; sourceTree = "<group>"; };
+		A23F17FB1C87D0DC00B48ACE /* 华文仿宋.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "华文仿宋.ttf"; path = "../../../../../../Library/Fonts/华文仿宋.ttf"; sourceTree = "<group>"; };
+		A2EB649C1C8666E600C601B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A2EB649D1C8666E600C601B7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A2EB649F1C8673B300C601B7 /* FontListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontListViewController.h; sourceTree = "<group>"; };
+		A2EB64A01C8673B300C601B7 /* FontListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontListViewController.m; sourceTree = "<group>"; };
+		A2EB64A21C867BDB00C601B7 /* FontSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeViewController.h; sourceTree = "<group>"; };
+		A2EB64A31C867BDB00C601B7 /* FontSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeViewController.m; sourceTree = "<group>"; };
+		A2EB64A51C8684EF00C601B7 /* FontInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInfoViewController.h; sourceTree = "<group>"; };
+		A2EB64A61C8684EF00C601B7 /* FontInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,18 @@
 				A211DC6B1C856C9D0012DBDF /* LaunchScreen.storyboard */,
 				A211DC6E1C856C9D0012DBDF /* Info.plist */,
 				A211DC631C856C9D0012DBDF /* Supporting Files */,
+				A211DC741C856CCC0012DBDF /* Main.storyboard */,
+				A211DC761C856F660012DBDF /* FavoritesList.h */,
+				A211DC771C856F660012DBDF /* FavoritesList.m */,
+				A2EB649C1C8666E600C601B7 /* RootViewController.h */,
+				A2EB649D1C8666E600C601B7 /* RootViewController.m */,
+				A2EB649F1C8673B300C601B7 /* FontListViewController.h */,
+				A2EB64A01C8673B300C601B7 /* FontListViewController.m */,
+				A2EB64A21C867BDB00C601B7 /* FontSizeViewController.h */,
+				A2EB64A31C867BDB00C601B7 /* FontSizeViewController.m */,
+				A2EB64A51C8684EF00C601B7 /* FontInfoViewController.h */,
+				A2EB64A61C8684EF00C601B7 /* FontInfoViewController.m */,
+				A23F17FB1C87D0DC00B48ACE /* 华文仿宋.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -129,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A211DC751C856CCC0012DBDF /* Main.storyboard in Resources */,
 				A211DC6A1C856C9D0012DBDF /* Assets.xcassets in Resources */,
 				A211DC6D1C856C9D0012DBDF /* LaunchScreen.storyboard in Resources */,
 			);
@@ -141,8 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A211DC781C856F660012DBDF /* FavoritesList.m in Sources */,
+				A2EB64A71C8684EF00C601B7 /* FontInfoViewController.m in Sources */,
 				A211DC681C856C9D0012DBDF /* AppDelegate.m in Sources */,
+				A2EB649E1C8666E600C601B7 /* RootViewController.m in Sources */,
 				A211DC651C856C9D0012DBDF /* main.m in Sources */,
+				A2EB64A41C867BDB00C601B7 /* FontSizeViewController.m in Sources */,
+				A2EB64A11C8673B300C601B7 /* FontListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +317,7 @@
 				A211DC731C856C9D0012DBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
